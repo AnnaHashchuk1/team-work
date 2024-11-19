@@ -37,7 +37,13 @@ const Body = () => {
           <h2 style={styles.name}>Maks Bidolakh</h2>
           <p style={styles.position}>Senior QA</p>
         </div>
-  
+      </div>
+      <div style={styles.card}>
+        <img src={"/dmytro-hapchyn.jpg"} alt="Dmytro Hapchyn" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Dmytro Hapchyn</h2>
+          <p style={styles.position}>Full-stack developer</p>
+        </div>
       </div>
     </main>
   );
