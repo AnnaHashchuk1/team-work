@@ -17,7 +17,7 @@ const Body = () => {
           <p style={styles.position}>Project Manager</p>
         </div>
       </div>
-      <div>
+      <div style={styles.card}>
         <img src={"/yokay-avatar.png"} alt="Danylo Voitynskyi" style={styles.photo} />
         <div style={styles.textContainer}>
           <h2 style={styles.name}>Danylo Voitynskyi</h2>
@@ -36,6 +36,13 @@ const Body = () => {
         <div style={styles.textContainer}>
           <h2 style={styles.name}>Serhii Boldariev</h2>
           <p style={styles.position}>Business analist</p>
+        </div>
+      </div>
+      <div style={styles.card}>
+        <img src={"/dmytro-hapchyn.jpg"} alt="Dmytro Hapchyn" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Dmytro Hapchyn</h2>
+          <p style={styles.position}>Full-stack developer</p>
         </div>
       </div>
     </main>
