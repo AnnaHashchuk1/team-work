@@ -17,7 +17,7 @@ const Body = () => {
           <p style={styles.position}>Project Manager</p>
         </div>
       </div>
-      <div>
+      <div style={styles.card}>
         <img src={"/yokay-avatar.png"} alt="Danylo Voitynskyi" style={styles.photo} />
         <div style={styles.textContainer}>
           <h2 style={styles.name}>Danylo Voitynskyi</h2>
