@@ -3,12 +3,41 @@ import React from "react";
 const Body = () => {
   return (
     <main style={styles.body}>
-      <div style={styles.card}>
+    <div style={styles.card}>
         <img src={"/avatar-default.png"} alt="Serhii Boldariev" style={styles.photo} />
         <div style={styles.textContainer}>
           <h2 style={styles.name}>Serhii Boldariev</h2>
           <p style={styles.position}>Business analist</p>
         </div>
+      </div>
+      <div style={styles.card}>
+        <img src={"/anna-hashchuk.png"} alt="Anna Hashchuk" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Anna Hashchuk</h2>
+          <p style={styles.position}>UI/UX Designer</p>
+         </div>
+      </div>
+      <div style={styles.card}>
+        <img src={"/Kate_Havryshchuk.png"} alt="Kate Havryshchuk" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Kate Havryshchuk</h2>
+          <p style={styles.position}>Project Manager</p>
+        </div>
+      </div>
+      <div style={styles.card}>
+        <img src={"/yokay-avatar.png"} alt="Danylo Voitynskyi" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Danylo Voitynskyi</h2>
+          <p style={styles.position}>Domain Expert</p>
+        </div>
+      </div>
+      <div style={styles.card}>
+        <img src={"/avatar-maksbid.jpg"} alt="Maks Bidolakh" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Maks Bidolakh</h2>
+          <p style={styles.position}>Senior QA</p>
+        </div>
+  
       </div>
     </main>
   );
